@@ -22,7 +22,7 @@ namespace RepositoryLayer.Services
         {
             using (SqlConnection con = new SqlConnection(configuration["ConnectionString:EmployeePayrollMVC"]))
             {
-                SqlCommand cmd = new SqlCommand("AddEmployee", con);
+                SqlCommand cmd = new SqlCommand("spAddEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@Name", employee.Name);
@@ -52,7 +52,7 @@ namespace RepositoryLayer.Services
         {
             using (SqlConnection con = new SqlConnection(configuration["ConnectionString:EmployeePayrollMVC"]))
             {
-                SqlCommand cmd = new SqlCommand("DeleteEmployee", con);
+                SqlCommand cmd = new SqlCommand("spDeleteEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@EmployeeId", id);
@@ -77,7 +77,7 @@ namespace RepositoryLayer.Services
             List<UserpostModel> lstemployee = new List<UserpostModel>();
             using (SqlConnection con = new SqlConnection(configuration["ConnectionString:EmployeePayrollMVC"]))
             {
-                SqlCommand cmd = new SqlCommand("GetAllEmployees", con);
+                SqlCommand cmd = new SqlCommand("spGetAllEmployees", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 con.Open();
                 SqlDataReader rdr = cmd.ExecuteReader();
@@ -132,7 +132,7 @@ namespace RepositoryLayer.Services
         {
             using (SqlConnection con = new SqlConnection(configuration["ConnectionString:EmployeePayrollMVC"]))
             {
-                SqlCommand cmd = new SqlCommand("UpdateEmployee", con);
+                SqlCommand cmd = new SqlCommand("spUpdateEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@EmployeeId", employee.EmployeeId);
