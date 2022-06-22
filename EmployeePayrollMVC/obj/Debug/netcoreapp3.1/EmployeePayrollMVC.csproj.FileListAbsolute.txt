@@ -109,6 +109,8 @@ D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.TagHelpers.output.cache
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.RazorCoreGenerate.cache
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -124,5 +126,3 @@ D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.dll
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.pdb
 D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\EmployeePayrollMVC.genruntimeconfig.cache
-D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
-D:\EmployeePayrolll\EmployeePayrollMVC\EmployeePayrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs

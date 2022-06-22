@@ -4,12 +4,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="logoSection">
+    <div>
+        <img src="/assets/logo.png"/>
+    </div>
+    <div>
+        <h5 style="color: #91b500; ">EMPLOYEE</h5>
+        <h5 style="color: #403e3e; ">PAYROLL</h5>
+    </div>
+</div>
+
+<h3>Index</h3>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table" style="background: #fff; border-radius: 10px ">
     <thead>
         <tr>
             <th>
@@ -49,7 +59,7 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.profileImage)
+               <img src="@Url.Content(item.profileImage)"/>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gender)
@@ -68,8 +78,8 @@
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new {  id=item.EmployeeId  }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new {  id=item.EmployeeId  })
+@*                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+*@                @Html.ActionLink("Delete", "Delete", new {  id=item.EmployeeId  })
             </td>
         </tr>
 }
